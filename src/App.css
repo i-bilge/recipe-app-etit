@@ -1,0 +1,44 @@
+body{
+  background-color: rgba(11, 35, 106, 0.296);
+}
+.App {
+  min-height: 100vh;
+  text-align: center;
+  background-image: url('./assets/bgPhoto-ratapan-anantawat.jpg');
+}
+.searchForm{
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.searchBar{
+  width: 50%;
+  border: none;
+  padding: 10px;
+}
+.searchBtn{
+  background-color: rgba(255, 255, 255, 0.845);
+  color: rgba(65, 105, 225);
+  border: none;
+  padding: 10px 20px;
+}
+
+.recipes{
+  color: bisque;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  min-height: 30px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.636);
+  font-weight: bold;
+  font-style: oblique;
+}
+
